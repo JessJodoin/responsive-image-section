@@ -97,7 +97,43 @@ h1 {
   .img-flex {
     display: inline-block;
     width: 17em;
-    padding-bottom: 1rem;
+    max-width: 25em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  section {
+    text-align: center;
+    padding: 0;
+  }
+
+  .content {
+    display: inline-block;
+    width: 23em;
+
+    text-align: left;
+  }
+
+  .img-flex {
+    display: inline-block;
+    width: 25em;
+    padding-top: 2rem;
+  }
+
+}
+
+@media onlt screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
   }
 
 }
